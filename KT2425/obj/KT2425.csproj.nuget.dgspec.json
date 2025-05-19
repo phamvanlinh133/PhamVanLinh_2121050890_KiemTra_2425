@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PhamVanLinh_2121050890_KiemTra_2425\\KT2425\\KT2425\\KT2425.csproj": {}
+    "C:\\PhamVanLinh_2121050890_KiemTra_2425\\KT2425\\KT2425.csproj": {}
   },
   "projects": {
-    "C:\\PhamVanLinh_2121050890_KiemTra_2425\\KT2425\\KT2425\\KT2425.csproj": {
+    "C:\\PhamVanLinh_2121050890_KiemTra_2425\\KT2425\\KT2425.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PhamVanLinh_2121050890_KiemTra_2425\\KT2425\\KT2425\\KT2425.csproj",
+        "projectUniqueName": "C:\\PhamVanLinh_2121050890_KiemTra_2425\\KT2425\\KT2425.csproj",
         "projectName": "KT2425",
-        "projectPath": "C:\\PhamVanLinh_2121050890_KiemTra_2425\\KT2425\\KT2425\\KT2425.csproj",
+        "projectPath": "C:\\PhamVanLinh_2121050890_KiemTra_2425\\KT2425\\KT2425.csproj",
         "packagesPath": "C:\\Users\\LAPTOP\\.nuget\\packages\\",
-        "outputPath": "C:\\PhamVanLinh_2121050890_KiemTra_2425\\KT2425\\KT2425\\obj\\",
+        "outputPath": "C:\\PhamVanLinh_2121050890_KiemTra_2425\\KT2425\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LAPTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,52 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[35.6.3, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.7.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.12.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
